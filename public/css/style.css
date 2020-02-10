@@ -1,0 +1,115 @@
+.logo {
+  margin-top: 15px;
+  height: 200px;
+}
+.title {
+  max-width: 300px;
+}
+body {
+  font-family: arial, helvetica, sans-serif; 
+  color: #60605b;
+}
+.today {
+  color: #4279bb;
+}
+.continue-btn {
+  border: 2px solid #60605b;
+  border-radius: 40px;
+}
+.collection {
+  border: none;
+}
+.collection .collection-item {
+  border: 2px solid #60605b;
+  border-radius: 40px;
+  margin: 20px;
+}
+.collection .collection-item:last-child {
+  border-bottom: 2px solid #60605b;
+}
+.time-slot {
+  color: #4279bb;
+}
+.tix-left {
+  color: #e28c05;
+}
+#tix-modal {
+}
+.tix-input {
+  margin-left: 0 !important;
+}
+.tix-input input {
+  border: 1px solid #60605b !important;
+  border-radius: 40px !important;
+}
+#total-input {
+  border: none;
+}
+
+.hide-visibility {
+  visibility: hidden;
+}
+.tix-input {
+  margin: 0;
+}
+.row .col.s4.tix-input {
+  margin-left: 0;
+}
+/* datepicker styles */
+.input-field .prefix.right {
+  right: 0;
+}
+.datepicker-wrapper {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+#datepicker {
+  height: 0px;
+}
+#datepicker-label {
+  position: relative;
+  top: .5rem;
+  left: 1rem;
+  min-width: 200px;
+  min-height: 40px;
+  font-size: 1.3rem;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #60605b;
+  opacity: 1; /* Firefox */
+  padding-left: 15px !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #60605b;
+  padding-left: 15px !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #60605b;
+  padding-left: 15px !important;
+}
+.qs-datepicker-container {
+/*  width: 100%;*/
+  font-size: 2rem;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] {
+  -moz-appearance:textfield;
+}
+.faq-question, #faq-note p{
+  font-weight: bold;
+}
+.faq-question, .faq-answer {
+  font-size: 1.392rem;
+}
+#faq {
+  margin-bottom: 200px;
+}

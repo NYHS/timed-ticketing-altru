@@ -1,0 +1,39 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "timed-ticketing-app",
+  "version": "0.0.1",
+  "description": "What am I about?",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@node-minify/core": "^5.2.1",
+    "compression": "^1.7.4",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "fetch": "^1.1.0",
+    "materialize-css": "^1.0.0",
+    "moment-timezone": "^0.5.27",
+    "node-fetch": "^2.6.0",
+    "sharp": "^0.23.4"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

@@ -1,0 +1,11 @@
+<div class="col s10 offset-s1 m8 offset-m2 l6 offset-l3">
+  <h4 class="center-align">Select Time:</h4>
+  <div class="collection">
+    {{#each timeslot}}
+      <a id="{{event_id}}" href="#tix-modal" class="collection-item modal-trigger tix-trigger"><span class="time-slot flow-text">{{time}}</span>
+        {{#if left}}
+        <span class="tix-left right flow-text">{{left}}</span></a>
+        {{/if}}
+    {{/each}}
+  </div>
+</div>

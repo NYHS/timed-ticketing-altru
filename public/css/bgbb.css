@@ -1,0 +1,938 @@
+html.bg {
+  display: inherit !important;
+}
+.header-logo {
+  display: flex;
+  justify-content: center;
+}
+.header-logo img{
+  width: 500px;
+  max-width: 100%;
+}
+body {
+    background-color: #fff;
+    font-family: 'Muli',sans-serif;
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+body,.Programming_Event_Name,.Programming_Event_Title,.MS_background_primaryContent {
+    color: #2B343B;
+}
+
+a {
+    color: #bf0c0f;
+}
+
+input[type=text],input[type=password],select,textarea,.payment-form input#email,.payment-form input#phone,.payment-form input#cardnumber {
+    box-sizing: border-box;
+    border: 1px solid #2B343B!important;
+    border-radius: 50px!important;
+    color: #2B343B!important;
+    font-size: 1rem;
+    font-weight: 600;
+    height: auto!important;
+    padding: 9px 15px!important;
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    margin-bottom: 20px;
+    max-width: none!important;
+    width: 100%!important;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+select {
+    box-sizing: border-box;
+    max-width: none!important;
+    position: relative;
+    padding-right: 30px!important;
+    background: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiAgd2lkdGg9IjIwcHgiIGhlaWdodD0iMTJweCIgdmlld0JveD0iMCAwIDIwIDEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KCTxwYXRoIHN0eWxlPSJmaWxsOiMyQjM0M0I7IiBjbGFzcz0ic3QwIiBkPSJNMTAsMTEuNEwwLjMsMS43Yy0wLjQtMC40LTAuNC0xLDAtMS40czEtMC40LDEuNCwwTDEwLDguNmw4LjMtOC4yYzAuNC0wLjQsMS0wLjQsMS40LDBzMC40LDEsMCwxLjRMMTAsMTEuNAoJCQkJeiIvPgo8L3N2Zz4K) 95% center no-repeat;
+    width: 100%;
+}
+a.time-button {
+  min-width: 300px !important;
+  text-decoration: none;
+  border: 2px solid #2B343B !important;
+  line-height: 1 !important;
+  padding: 14px 15px !important;
+  margin-top: 30px !important;
+}
+.time-container {
+  padding-bottom: 200px !important;
+  padding-left: 15% !important;
+}
+.time-container a, .time-container input {
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+input[type=submit],.payment-form #submitButton, a.time-button {
+    box-sizing: border-box;
+    display: inline-block;
+    background: none;
+    background-color: #FFF;
+    border-radius: 50px;
+    box-shadow: none;
+    color: #2B343B;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-top: 30px;
+    min-width: 300px;
+    padding: 14px 15px;
+    position: relative;
+    line-height: 1;
+    border: 2px solid #2B343B;
+    font-variant: none;
+    transition: all .4s ease;
+    transition-property: color,background-color;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+input[type=submit]:hover,input[type=submit]:focus,input[type=submit]:active,.payment-form #submitButton:hover,.payment-form #submitButton:focus,.payment-form #submitButton:active {
+    background: none;
+    background-color: #2B343B;
+    color: #FFF;
+    text-decoration: none;
+}
+
+input[type=radio],input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #FFF;
+    border: 2px solid #2B343B;
+    cursor: pointer;
+    flex-shrink: 0;
+    height: 25px;
+    margin-right: 10px;
+    margin-top: 1px;
+    position: relative;
+    vertical-align: top;
+    width: 25px;
+}
+
+input[type=radio]:checked::after,input[type=checkbox]:checked::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 3px;
+    top: 3px;
+    background-color: #2B343B;
+}
+
+input[type=radio] {
+    border-radius: 50%;
+}
+
+input[type=radio]:checked::after {
+    border-radius: 50%;
+}
+
+.MS_headerWrapper {
+    border-bottom: 1px solid #4279bb;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.MS_headerWrapper_inner .MSFootTextDiv {
+    display: inline;
+}
+
+.MS_headerWrapper_inner .MSFootTextDiv h2 {
+    display: inline-block;
+}
+
+.logo {
+    display: block;
+    color: #bf0c0f;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 1.86px;
+    line-height: 1;
+    margin-top: 7px;
+}
+
+.MS_headerWrapper .MSFootTextDiv {
+    margin-top: 0;
+}
+
+.MS_headerWrapper .MSFootTextDiv p {
+    display: none;
+}
+
+.BBListingHeading {
+    color: #2B343B;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0 0 20px 0;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.Programming_Event_Name,.Programming_Event_Title,.Registration_UserMessageTitle,.MembershipExpress_MembershipTitle {
+    font-family: 'Muli',sans-serif!important;
+    font-size: 3.5rem!important;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.MembershipExpress_MembershipSelectTitle,.MembershipExpress_TermHelp,.MembershipExpress_LevelHeader {
+    display: none;
+}
+
+.MembershipExpress_LevelSelectorContainer {
+    border: 0;
+}
+
+.MembershipExpress_SelectedTermLabel,.MembershipExpress_SelectedTypeLabel,.MembershipExpress_TermName:hover {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+}
+
+.MembershipExpress_TermName>span {
+    text-align: left;
+    color: #2B343B;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.MembershipExpress_TermRadiolTerm {
+    margin-bottom: 30px!important;
+}
+
+.MembershipExpress_TermRadioAmount {
+    color: #bf0c0f!important;
+}
+
+.MembershipExpress_TermContainer {
+    text-align: left;
+}
+
+.MembershipExpress_MemberControl {
+    float: none;
+}
+
+.MembershipExpress_MemberControlLabel {
+    width: 165px;
+}
+
+.MembershipExpress_PrimaryGiftMemberColumn {
+    float: none;
+}
+
+.MS_LoginButtonOuterContainer,.MS_LoginButtonInnerContainer {
+    background-image: none;
+}
+
+.MS_LoginButtonOuterContainer a {
+    display: inline-block;
+    background-color: #FFF;
+    border-radius: 50px;
+    color: #2B343B;
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 150px;
+    padding: 9px 15px;
+    line-height: 1;
+    position: relative;
+    border: 1px solid #2B343B;
+    font-variant: none;
+    transition: all .4s ease;
+    transition-property: color,background-color;
+    text-align: center;
+}
+
+.MS_LoginButtonOuterContainer a:hover,.MS_LoginButtonOuterContainer a:focus,.MS_LoginButtonOuterContainer a:active {
+    background-color: #2B343B;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.MS_LoginButtonInnerContainer_ExpandingPadding {
+    padding-right: 0;
+}
+
+.MS_contentWrapper_inner {
+    max-width: 93%;
+}
+
+.MS_RegisterButtonPositionLocator {
+    position: relative;
+    display: inline-block;
+    right: auto;
+    top: auto;
+}
+
+.MS_LoginLink {
+    position: relative;
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.TicketDateTimeOuterContainer {
+    background: none;
+    border: 0;
+    padding: 0;
+}
+
+.TicketDateTimeInnerContainer {
+    background: none;
+    border: 0;
+    color: #2B343B;
+    padding: 0;
+}
+
+.TicketDateTimeLeft,.TicketDateTimeRight {
+    width: 100%;
+}
+
+.TicketDateHeaderLabel {
+    margin-top: 0;
+    text-align: left;
+}
+
+.Programming_Event_DateContainer,.Programming_Event_TimeContainer {
+    background: none;
+    margin: 0;
+}
+
+.Programming_Event_Date,.Programming_Event_TimeInnerContainer {
+    border-bottom: 0;
+    margin-left: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.Programming_Event_TimespanSeparator,.Programming_Event_EndTime {
+    display: none;
+}
+
+#anchorOtherDates,#anchorOtherTimes,.PaymentPartSubmitButton,.PaymentPart_CartItemRemoveText,input.PaymentPart_CartDeliveryMethod[type="submit"] {
+    background: none;
+    background-color: #FFF;
+    border-radius: 50px;
+    color: #2B343B;
+    font-family: 'Muli',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 150px;
+    padding: 9px 15px;
+    line-height: 1;
+    position: relative;
+    border: 1px solid #2B343B;
+    font-variant: none;
+    transition: all .4s ease;
+    transition-property: color,background-color;
+    text-align: center;
+}
+
+#anchorOtherDates:hover,#anchorOtherDates:focus,#anchorOtherDates:active,#anchorOtherTimes:hover,#anchorOtherTimes:focus,#anchorOtherTimes:active,.PaymentPartSubmitButton:hover,.PaymentPartSubmitButton:focus,.PaymentPartSubmitButton:active,.PaymentPart_CartItemRemoveText:hover,.PaymentPart_CartItemRemoveText:focus,.PaymentPart_CartItemRemoveText:active,input.PaymentPart_CartDeliveryMethod[type="submit"]:hover,input.PaymentPart_CartDeliveryMethod[type="submit"]:focus,input.PaymentPart_CartDeliveryMethod[type="submit"]:active {
+    background-color: #2B343B;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.PaymentPart_CartItemRemoveText,input.PaymentPart_CartDeliveryMethod[type="submit"] {
+    min-width: 0;
+}
+
+.PaymentPart_CartItemUnitPrice {
+    margin-bottom: 0!important;
+}
+
+.Programming_Event_AlternateDatesCaption,.Programming_Event_AlternateTimesCaption {
+    color: #2B343B;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#anchorOtherDates:hover .Programming_Event_AlternateDatesCaption,#anchorOtherDates:focus .Programming_Event_AlternateDatesCaption,#anchorOtherDates:active .Programming_Event_AlternateDatesCaption,#anchorOtherTimes:hover .Programming_Event_AlternateTimesCaption,#anchorOtherTimes:focus .Programming_Event_AlternateTimesCaption,#anchorOtherTimes:active .Programming_Event_AlternateTimesCaption {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.Programming_TicketTable {
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.Programming_TicketTable::before {
+    content: 'Tickets:';
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 6px;
+}
+
+.Programming_TicketTable thead {
+    display: none;
+}
+
+.PaymentPart_CartList tbody td,.Programming_TicketTable tbody td {
+    background-color: #FFF;
+    border-right: 0;
+    vertical-align: middle!important;
+}
+
+.Programming_TicketCell.Programming_TicketRange,.Programming_TicketCell.Programming_TicketHeader.Programming_TicketRange {
+    display: none;
+}
+
+.Programming_TicketCell.Programming_TicketQuantity .Programming_TicketPriceQuantity {
+    border: 1px solid #2B343B;
+    border-radius: 50px;
+    color: #2B343B;
+    font-size: 24px;
+    margin: 0 15px;
+    min-width: 0;
+    padding: 5px 15px;
+    width: 60px!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-align: center;
+}
+
+.Programming_TicketCell {
+    vertical-align: middle!important;
+}
+
+.MSFootTextDiv {
+    text-align: right;
+}
+
+a.returnlink {
+    display: inline-block;
+    color: #bf0c0f;
+    padding-left: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+a.returnlink::before {
+    content: "\2039";
+    font-size: 35px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: .6;
+}
+
+.PaymentPart_Cart {
+    border: 0;
+    margin-bottom: 30px;
+}
+
+.PaymentPart_CartList {
+    border-bottom: 0!important;
+    border-top: 0!important;
+}
+
+.PaymentPart_FormContainer::before {
+    content: 'Your Cart';
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 30px;
+}
+
+.PaymentPartSubmitButton,.PaymentPart_CartOptions {
+    margin-bottom: 20px;
+    padding: 8px!important;
+    background: #fff!important;
+}
+
+.PaymentPartSubmitButton:hover,.PaymentPart_CartOptions a:hover {
+    background: #2B343B!important;
+}
+
+.PaymentPart_CartList thead th {
+    background-color: transparent;
+    border-right: 0;
+    border-top: 0;
+    text-shadow: none;
+    color: #2B343B;
+}
+
+.PaymentPart_CartHeaderCell.PaymentPart_CartHeaderDescriptionCell {
+    visibility: hidden;
+}
+
+.PaymentPart_CartRows {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.PaymentPart_CartRows.PaymentPart_CartItemTypeRow {
+    display: none;
+}
+
+.PaymentPart_DeliveryMethod {
+    background-color: transparent;
+}
+
+.PaymentPart_CartSubtotalCaption,.PaymentPart_CartSummaryFieldContainer {
+    color: #2B343B;
+    font-weight: 700;
+    font-size: 25px!important;
+}
+
+.PaymentPart_CartSummaryFieldContainer {
+    width: 210px;
+}
+
+.PaymentPart_PesonalInfoCheckbox {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.MembershipExpress_MemberControlContainer,.PaymentPart_RegistrationCredentials {
+    background: none;
+    border: 0;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.PaymentPart_CartDeliveryMethod {
+    margin-bottom: 0!important;
+}
+
+.DCFieldCaption {
+    display: inline-block;
+    float: none;
+}
+
+.Registration_RegistrantInnerInfoContainer {
+    background: none;
+    border: 0;
+    width: 100%;
+}
+
+#PC1397_ctl00_divAddressInfo {
+    width: 100%;
+}
+
+.ui-dialog {
+    max-width: 450px;
+    width: 100%!important;
+}
+
+.Registration_RegistrantFieldCell {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    vertical-align: top;
+}
+
+.Registration_RegistrantControlRequire {
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+}
+
+.DonationFieldControlCell table {
+    background-color: #FFF;
+    border: 0;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+.DonationFieldHelpletCell {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.DonationFieldControlCell table tr {
+    border: 0;
+}
+
+.DonationFormTable_DonationPanel {
+    border-top: 1px solid grey!important;
+}
+
+.BBFieldControlCell .BBFieldControlCell {
+    padding: 20px 0 10px 0;
+}
+
+.BBFieldCaption {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.BBFormTextArea {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: system-ui!important;
+}
+
+span#PC638_lblPersonal {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+span#PC638_lblAdditInformation {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+span#PC639_ctl00_giftInformationHeader {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+span#PC639_ctl00_recipientInformationHeader {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+div#divGiftInformation>div {
+    margin: 15px 0;
+}
+
+.MembershipExpress_GiftInformationContainer {
+    line-height: 20px;
+}
+
+span#PC639_ctl00_lblMembershipMembersHelp {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.MembershipExpress_Total {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.MembershipExpress_AddtoCartContainer {
+    display: flex;
+    margin-right: 30px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    flex-direction: column-reverse;
+}
+
+.Registration_RegistrantTextInput {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+span#PC1411_ctl00_labelNoItems {
+    display: block;
+    margin: 20px auto;
+}
+
+.PaymentPart_CartSummary {
+    background-color: transparent;
+    border-right: none;
+    border-left: none;
+    margin-top: 10px;
+}
+
+span#PC1411_ctl00_lblRegistrationInformationMessage {
+    margin-left: 0!important;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+label {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+dl#dlDiscountCodeEntry {
+    display: flex;
+    align-items: baseline;
+}
+
+.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
+    color: #2B343B;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #4279bb;
+    border-radius: 0;
+    padding: 15px;
+}
+
+.ui-widget-content {
+    border: none!important;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+    float: right !important;
+    margin: .5em .4em .5em 0 !important;
+    cursor: pointer !important;
+    width: auto !important;
+    overflow: visible !important;
+    display: inline-block;
+    background: white!important;
+    border-radius: 50px;
+    color: #2B343B;
+    font-size: 16px;
+    font-weight: 500;
+    min-width: 150px;
+    padding: 9px 15px !important;
+    line-height: 1 !important;
+    position: relative;
+    border: 1px solid #2B343B;
+    text-align: center;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    border-top: 1px solid grey!important;
+}
+
+label#PC639_ctl00_lblGiftDelivery {
+    line-height: 20px;
+}
+
+td#PC638_thCaptionAmount {
+    width: 60px!important;
+}
+
+textarea#PC638_txtComments {
+    position: relative;
+    right: 15%;
+}
+
+div#divDeliveryMethod {
+    margin-top: 15px;
+}
+
+.Programming_Event_AddToCartButton,.PaymentPart_CartDiscountApplyButton,.PaymentPartSubmitButton {
+    -webkit-appearance: none;
+    background: #fff;
+    padding: 8px;
+}
+
+.PaymentPartSubmitButton {
+    padding: 14px 15px!important;
+    font-weight: bold!important;
+}
+
+div#PC1462_ctl00_ctl01_PaymentPartFormContainer::before {
+    display: none;
+}
+
+.Programming_Event_AlternateTimes {
+    z-index: 99;
+}
+
+.MS_LoginButtonOuterContainer a {
+    margin: 0 7px;
+}
+
+.payment-form .data-entry-fieldset .field-group label {
+    vertical-align: text-bottom;
+}
+
+.payment-form select#expiryMonth,.payment-form select#expiryYear {
+    width: 15%!important;
+}
+
+.payment-form input#csc {
+    width: 14%!important;
+}
+
+.payment-form .error-section,.payment-form .data-entry-fieldset .invalid-input {
+    background-color: transparent!important;
+}
+
+.payment-form input,.payment-form textarea,.payment-form select,.payment-form button {
+    font: 400 1rem "Muli"!important;
+}
+
+@media(min-width: 1024px) {
+    .MS_contentWrapper_inner {
+        max-width:760px;
+    }
+
+    #PC1416_ctl00_panelEvent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .Programming_Event_DateTime {
+        width: 40%;
+    }
+
+    .Programming_Event_PriceList {
+        width: 50%;
+    }
+
+    .Registration_RegistrantFieldCell {
+        width: 45%;
+    }
+
+    input[type=text],input[type=password],select,textarea,.payment-form input#email,.payment-form input#phone,.payment-form input#cardnumber {
+        max-width: 332px!important;
+    }
+
+    .payment-form input#postal {
+        margin-left: 160px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .MS_footerWrapper_inner {
+        padding:15px 30px;
+    }
+}
+
+@media(max-width: 661px) {
+    .payment-form select#expiryMonth,.payment-form select#expiryYear,.payment-form input#csc {
+        width:40%!important;
+    }
+
+    .payment-form.mobile-view .data-entry-fieldset .field-group .field-label-min {
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media(max-width: 600px) {
+.PaymentPart_CartRows {
+    font-weight: 700;
+    font-size: 14px;
+}
+.PaymentPart_CartList tbody td span, .Programming_TicketTable tbody td span, .Programming_TicketTable tbody td label {
+  font-size: 16px !important;
+}
+    .MS_headerWrapper_inner {
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    .MS_LoginButtonOuterWrapperContainer {
+        margin: 10px 0;
+    }
+
+    .MS_LoginButtonOuterContainer {
+        padding: 0;
+        margin: 0;
+    }
+
+    .MS_LoginButtonOuterContainer a {
+        min-width: 100px;
+    }
+
+    .MS_LoginButtonInnerContainer_ExpandingPadding,.MS_headerWrapper_inner .MSFootTextDiv {
+        text-align: center;
+    }
+
+    div#PC1451_ctl00_UserRegistration {
+        padding: 20px;
+    }
+
+    td#PC638_thCaptionAmount {
+        display: none;
+    }
+
+    td.BBFieldControlCell.DonationFieldControlCell,table#PC638_tblAmount {
+        width: 110%;
+        padding: 5px;
+    }
+
+    tr#PC638_trComments {
+        display: flex;
+    }
+
+    .BBFormTextArea {
+        min-width: 200px;
+    }
+
+    input[type=text],input[type=password],select,textarea,.payment-form input#email,.payment-form input#phone,.payment-form input#cardnumber {
+        width: 90%!important;
+    }
+
+    .DCFieldCaption {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #divRegistrationPassword .BBMessage {
+        margin-left: 0!important;
+    }
+
+    .PaymentPart_Controls {
+        margin-right: 0!important;
+    }
+
+    label {
+        font-size: 85%;
+    }
+
+    .PaymentPart_CartSummary {
+        padding: 10px 10px 10px 0;
+    }
+
+    dl#dlDiscountCodeEntry {
+        display: block;
+    }
+
+    .PaymentPart_PesonalInfoCheckbox {
+        margin-left: 0;
+    }
+
+    .PaymentPart_CartList tbody td,.Programming_TicketTable tbody td {
+        padding: 2px!important;
+    }
+
+    .PaymentPart_CartList tbody td,.Programming_TicketTable tbody td {
+        font-size: 12px;
+    }
+}
+.MS_LoginButtonOuterWrapperContainer {
+  float: left;
+}
+.MS_pageWrapper {
+  max-width: none;
+  margin-top: 15px;
+}
+.MS_headerWrapper {
+  display: flex;
+  justify-content: center;
+}
+.PaymentPart_CartList tbody td span, .Programming_TicketTable tbody td span, .Programming_TicketTable tbody td label {
+  font-size: 20px;
+}
+#PC1762_ctl00_spanAlternateTimesLink, #PC1762_ctl00_spanAlternateDatesLink {
+  display: none;
+}
+.TicketDateTimeLeft, .TicketDateTimeRight {
+  display: flex;
+  flex-direction: column;
+}
+#PC1762_ctl00_labelEventDate, #PC1762_ctl00_labelEventStartTime {
+  font-size: 25px;
+  font-weight: bold;
+  color: #4279bb;
+}
+.ui-dialog-buttonpane button:hover {
+    background-color: #2B343B !important;
+    color: #FFF !important;
+    text-decoration: none !important;
+}

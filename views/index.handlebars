@@ -1,0 +1,163 @@
+  
+<div class="container">
+        
+  <div class="row">
+    <div class="col s8 offset-s2 m6 offset-m3 l4 offset-l4">
+      <div id="datepicker-wrapper" class="input-field datepicker-wrapper valign-wrapper">
+        <span id="datepicker-label" >Select Ticket Date</span>
+        <input id="datepicker" type="text" readonly placeholder="Select Date" required value class="datepicker hide-visibility" data-disableddates="{{disabledDates}}" data-currentdate={{requestedDate}}>
+        <i id="datepicker-arrow" class="material-icons prefix right">keyboard_arrow_down</i>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s6 offset-s3 m6 offset-m3 l4 offset-l4 center-align">
+      <h4 class="today"></h4>
+    </div>
+  </div>
+  <div id="preloader" class="row center hide">
+    <div class="preloader-wrapper big">
+      <div class="spinner-layer spinner-blue">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-red">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-yellow">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-green">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row center" id="times">
+  </div>
+
+  <div id="tix-modal" class="modal">
+    <div class="modal-content">
+      {{#each tixType}}
+      <div class="row valign-wrapper">
+        <div class="col s6 flow-text">{{Type}}</div>
+        <div class="col s6 valign-wrapper">
+          <a class="btn-floating btn-small waves-effect waves-circle grey lighten-5 remove-ticket"><i class="material-icons grey-text">remove</i></a>
+          <div class="input-field col s6 tix-input">
+            <input type="number" min="0" class="validate center-align" value="0">
+          </div>
+          <a class="btn-floating btn-small waves-effect waves-circle grey lighten-5 add-ticket"><i class="material-icons grey-text">add</i></a>
+        </div>
+      </div>
+      {{/each}}
+<hr>
+      <div class="row valign-wrapper">
+        <div class="col s6 flow-text">Total</div>
+        <div class="col s6">
+          <div class="input-field col s6">
+            <input id="total-input" type="number" readonly min="0" class="validate center-align" value="0">
+          </div>
+        </div>
+      </div>
+      <div class="row center">
+        <button data-eventid="" data-urlbase="{{webformUrl}}" data-tix="" id="form-btn" class="btn-large waves-effect grey lighten-5 grey-text text-darken-2 continue-btn" type="button" name="action">Continue
+    <i class="material-icons right">arrow_forward</i>
+  </button>
+      </div>
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+  <div id="faq" class="row">
+    <div id="faq-note" class="s12">
+      <p class="flow-text">Please note: The exhibition closes one hour after the last entry time of the day.</p>
+    </div>
+    <h4>Exhibition FAQs</h4>
+    <p class="flow-text">Don’t see your question here? Check out our full list of FAQs <a href="/faq">here</a>.</p>
+    <ul class="collapsible popout">
+      <li>
+        <div class="collapsible-header faq-question">
+          What are the exhibition dates?
+        </div>
+        <div class="collapsible-body faq-answer">
+          The exhibition will be on view Feb. 14–Aug. 23, but you can book your tickets now.
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header faq-question">
+          What are the exhibition's hours?
+        </div>
+        <div class="collapsible-body faq-answer">
+          The exhibition will be open to the public on Tuesday, Wednesday, Thursday, and Saturday 10 am–6 pm, Friday 10 am–8 pm, and Sunday 11 am–5 pm. The last entry time will begin one hour before closing. Please <a href="https://www.nyhistory.org/visit/calendar">check our calendar</a> for occasional gallery closures and special open days.
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header faq-question">
+          I am a New-York Historical Society Member—do I still need to book a ticket in advance?
+        </div>
+        <div class="collapsible-body faq-answer">
+          Members are welcome to visit <em>Bill Graham and the Rock & Roll Revolution</em> at any time without having to book an advance ticket! Please note that you will have to show your Membership card, and there may be lines and wait times to enter the exhibition.
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header faq-question">
+          I am having a problem booking tickets. How can I get help?
+        </div>
+        <div class="collapsible-body faq-answer">
+          If you are having a problem with your online order, please call the New-York Historical Society Call Center at (212) 485-9268.
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header faq-question">
+          What should I bring on the day of my visit?
+        </div>
+        <div class="collapsible-body faq-answer">
+          You will need to bring your ticket, print-at-home ticket, or order confirmation. Members will have to bring their Membership cards.
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header faq-question">
+          When should I arrive for my visit?
+        </div>
+        <div class="collapsible-body faq-answer">
+          You may enter the exhibition at any time up to one hour from the start of your assigned entry time. For example, if you purchased a ticket for 10 am, you may enter the exhibition at any time from 10 am–11am. Please note the closing time of the exhibition (see above) before planning your arrival time.
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header faq-question">
+          Can I book a guided tour to the exhibition?
+        </div>
+        <div class="collapsible-body faq-answer">
+          Yes! Guided tours to the exhibition for adults and college classes are available. Please contact our Group Sales department at (212) 873-3400 ext. 352 to book your tour or email <a href="mailto:group.tours@nyhistory.org">group.tours@nyhistory.org</a> for more information.
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
