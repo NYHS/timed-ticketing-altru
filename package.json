@@ -21,7 +21,7 @@
     "fetch": "^1.1.0",
     "materialize-css": "^1.0.0",
     "moment-timezone": "^0.5.27",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "sharp": "^0.23.4"
   },
   "engines": {
